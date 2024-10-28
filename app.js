@@ -6,7 +6,9 @@ const PORT = process.env.PORT || 5000; // use either the host env var port (PORT
 //todo: use es6 imports
 app.use(cors());
 
-const url = 'https://www.boredapi.com/api/activity';
+// const url = 'https://www.boredapi.com/api/activity'; // seems to be down @20241028
+const url = 'https://apis.scrimba.com/bored/api/activity';
+
 
 // older promise api 
 /* app.get('/', (req, res) => { // send a get request to root directory ('/' is this file (app.js))
